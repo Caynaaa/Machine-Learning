@@ -1,0 +1,33 @@
+{
+    "intents": [{
+        "tag": "sapaan",
+        "patterns": ["halo", "hi", "selamat pagi", "apa kabar", "oi", "hey"],
+        "response": ["Halo! ada yang bisa saya bantu?", "Hai! kamu mau tanya apa tentang kampus?"]
+    },
+    {
+        "tag": "lokasi",
+        "patterns": ["dimana kampus", "lokasi universitas", "alamat kampus", "posisi kampus"],
+        "response": ["kampus di JL.Bali 38119, Bengkulu, Indonesia", "kampus di JL.Bali ,Bengkulu"]
+    },
+    {
+        "tag": "fakultas",
+        "patterns": ["fakultas apa aja"],
+        "response": ["Ada Teknik, Ekonomi, Hukum, Agama"]
+    },
+    {
+        "tag": "jurusan",
+        "patterns": ["jurusan apa aja", "program studi yang tersedia"],
+        "response": ["Ada Teknik Informatika, Sistem Informasi", "Arsitektur"]
+    },
+    {
+        "tag": "fasilitas",
+        "patterns": ["apa aja fasilitas", "fasilitas kampus"],
+        "response": ["Kampus mempunyai perpustakaan 3 lantai, lab komputer, lapangan, dan kantin"]
+    },
+    {
+        "tag": "penutup",
+        "patterns": ["terima kasih", "makasih", "sampai jumpa", "bye", "dadah"],
+        "response": ["sama-sama!", "semoga membantu!", "sampai jumpa!"]
+    }
+    ]
+}
