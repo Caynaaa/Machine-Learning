@@ -40,7 +40,7 @@ Contoh intents yang tersedia:
 - **biaya** - Informasi biaya kuliah
 - **penutup** - Percakapan penutup
 
-🧠 Arsitektur Model
+## 🧠 Arsitektur Model
 - Input (Bag-of-Words) → Neural Network (3 Layers) → Output (Intent Classification)
 - Input: Bag-of-Words dari vocabulary
 - Hidden Layers: 2 layer dengan ReLU activation
@@ -55,23 +55,23 @@ NLTK - Natural Language Processing toolkit
 NumPy - Komputasi numerik
 Python 3.11+ - Bahasa pemrograman
 
-📝 Fitur Chatbot
-✅ Pure ML-based - Tidak ada rule-based logic
-✅ Multi-intent classification - Bisa mengenali berbagai jenis pertanyaan
-✅ Confidence scoring - Menampilkan tingkat keyakinan prediksi
-✅ Interactive interface - Chat interface interaktif
-✅ Command helpers - Help, history, exit commands
-✅ Simple context - Riwayat percakapan terbatas
+## 📝 Fitur Chatbot
+- ✅ Pure ML-based - Tidak ada rule-based logic
+- ✅ Multi-intent classification - Bisa mengenali berbagai jenis pertanyaan
+- ✅ Confidence scoring - Menampilkan tingkat keyakinan prediksi
+- ✅ Interactive interface - Chat interface interaktif
+- ✅ Command helpers - Help, history, exit commands
+- ✅ Simple context - Riwayat percakapan terbatas
 
-⚠️ Batasan (Prototype)
-❌ Dataset kecil - Hanya contoh terbatas
-❌ Tidak ada context deep - Percakapan sederhana
-❌ Bahasa terbatas - Hanya memahami patterns yang dilatih
-❌ Tidak ada database - Semua data statis di JSON
-❌ Accuracy terbatas - Hanya untuk demonstrasi
+## ⚠️ Batasan (Prototype)
+- ❌ Dataset kecil - Hanya contoh terbatas
+- ❌ Tidak ada context deep - Percakapan sederhana
+- ❌ Bahasa terbatas - Hanya memahami patterns yang dilatih
+- ❌ Tidak ada database - Semua data statis di JSON
+- ❌ Accuracy terbatas - Hanya untuk demonstrasi
 
 
-📄 Lisensi
+## 📄 Lisensi
 Project ini hanya untuk tujuan edukasi dan pembelajaran. Bebas digunakan untuk keperluan akademik dengan menyertakan credit.
 
 
