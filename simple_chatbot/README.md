@@ -49,11 +49,11 @@ Contoh intents yang tersedia:
 
 
 
-🛠️ Teknologi yang Digunakan
-PyTorch - Framework machine learning
-NLTK - Natural Language Processing toolkit
-NumPy - Komputasi numerik
-Python 3.11+ - Bahasa pemrograman
+## 🛠️ Teknologi yang Digunakan
+- PyTorch - Framework machine learning
+- NLTK - Natural Language Processing toolkit
+- NumPy - Komputasi numerik
+- Python 3.11+ - Bahasa pemrograman
 
 ## 📝 Fitur Chatbot
 - ✅ Pure ML-based - Tidak ada rule-based logic
