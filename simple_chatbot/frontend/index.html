@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMB ChatBot</title>
+    <link rel="stylesheet", href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Headeer -->
+        <header class="chat-header">
+            <div class="header-content">
+                <div class="bot-avatar">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="header-info">
+                    <h1>UMB ChatBot</h1>
+                    <p>AI Assistant Kampus</p>
+                    <div class="status-indicator">
+                        <span class="status-dot" id="status-dot"></span>
+                        <span class="status-txt">Connecting...</span>
+                    </div>
+                </div>
+                <button class="btn-clear" id="clear-chat" title="Clear Conversation">
+                    <i class="fas fa-trash"></i>
+                </button>
+            </div>
+        </header>
+
+        <!-- Chat Message Area -->
+         <main class="chat-main">
+            <div class="chat-messages" id="chat-messages">
+                <!-- Welcome message -->
+                 <div class="message bot-message">
+                    <div class="message-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="message-content">
+                        <div class="message-text">
+                            Hello! Saya UMB ChatBot, Saya dapat membantu terkait informasi tentang Universitas.
+                            Kamu dapat bertanya terkait fakultas, jurusan, fasilitas kampus!
+                        </div>
+                        <div class="message-time"></div>
+                    </div>
+                 </div>
+            </div>
+
+            <!-- Input area -->
+             <div class="chat-input-area">
+                <div class="input-container">
+                    <input 
+                        type="text" 
+                        id="user-input" 
+                        placeholder="Type your message here..." 
+                        autocomplete="off" 
+                        aria-label="Type your message"
+                    >
+                    <div class="input-buttons">
+                        <button class="btn-send" id="send-btn" aria-label="Send message">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+             </div>
+         </main>
+
+         <!-- Footer -->
+          <footer class="chat-footer">
+            <div class="confidence-indicator" id="confidence-indicator">
+                <div class="confidence-bar">
+                    <div class="confidence-fill" id="confidence-fill"></div>
+                    <div class="confidence-text">
+                        <span id="confidence-value">--%</span> confidence
+                    </div>
+                </div>
+                <div class="footer-info">
+                    <span class="model-info" id="model-info">Model: loading...</span>
+                    <span class="intent-info" id="intent-info">Intent: ---</span>
+                </div>
+            </div>
+          </footer>
+    </div>
+
+    <!-- Loading overlay -->
+     <div class="loading-overlay" id="loading-overlay">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Thinking...</div>
+     </div>
+ 
+    <script src="script.js"></script>
+</body>
+</html>
