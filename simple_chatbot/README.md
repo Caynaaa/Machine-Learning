@@ -12,11 +12,12 @@
 
 ## 📁 Struktur Project
 ```campus_chatbot/
-├── data_intents.json               # Dataset training (patterns & responses)
-├── train.py                        # Script training model ML
-├── chat.py                         # Interface chatbot 
-├── simple_chatbot_model.pth        # Model terlatih (hasil training)
-└── README.md                       # Documentations
+├── backend
+  ├── data_intents.json               # Dataset training (patterns & responses)
+  ├── train.py                        # Script training model ML
+  ├── chat.py                         # Interface chatbot 
+  ├── simple_chatbot_model.pth        # Model terlatih (hasil training)
+  └── README.md                       # Documentations
 ```
 
 ## 📊 Dataset

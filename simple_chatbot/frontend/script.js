@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // FUNCTIONS 
 
-    function checkBackendStatus() {
+    function checkBackendStatus() {   
         console.log('Checking backend status...');
 
         fetch(`${API_URL}/health`)

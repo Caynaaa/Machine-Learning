@@ -20,9 +20,9 @@ torch.manual_seed(42)
 # Download nltk (FIX TYPO)
 def setup_nltk():
     try:
-        nltk.data.find('tokenizers/punkt')
-        nltk.data.find('tokenizers/punkt_tab')
-        nltk.data.find('corpora/wordnet')
+        nltk.data.find('tokenizers/punkt') # -> Tokenizer untuk memecah kalimat menajadi kata-kata
+        nltk.data.find('tokenizers/punkt_tab') # -> Dataset tambahan untuk tokenize
+        nltk.data.find('corpora/wordnet') # -> Dataset semantic untuk mencari hubungan dan synonim kata
     except LookupError:
         print("Downloading NLTK data...")
         nltk.download('punkt')
